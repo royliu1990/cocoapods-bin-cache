@@ -10,5 +10,4 @@ group :development do
   gem 'bacon'
   gem 'mocha-on-bacon'
   gem 'prettybacon'
-  gem 'cocoapods-binary'
 end
