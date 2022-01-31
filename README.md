@@ -9,5 +9,6 @@ A patch for cocoapods-binary by which you can cache prebuild binaries in a local
 ## Usage
     in Podfile:
     plugin 'cocoapods-binary-cache'
+    set_bin_cache_path (optional,set the binary prebuild cache path,default is ~/.cocoapods-bin-cache)
     fix_bundle_copy (optional, when you prebuild in static framework,you may encounter bundle copy problem,just fix it by call this method) 
     fix_dsyms_copy (optional,just like fix_bundle_copy,this is for dsyms_copy during dynamic framework prebuilding)
